@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: "Iconify Explorer Font";
+  src: url("./iconfont.eot");
+  src: url("./iconfont.eot") format("embedded-opentype"),
+       url("./iconfont.ttf") format("truetype"),
+       url("./iconfont.woff") format("woff"),
+       url("./iconfont.woff2") format("woff2"),
+       url("./iconfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.i {
+  font-family: "Iconify Explorer Font" !important;
+  font-size: 1em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.i.ep\:location:before {
+content: "\e001";
+}
+
+.i.ic\:round-home:before {
+content: "\e002";
+}
+
+.i.ic\:round-person:before {
+content: "\e003";
+}
+
+.i.octicon\:triangle-down-24:before {
+content: "\e004";
+}
+
+.i.ph\:file-text-light:before {
+content: "\e005";
+}
+
+.i.ph\:magnifying-glass-bold:before {
+content: "\e006";
+}
+
+.i.tdesign\:compass:before {
+content: "\e007";
+}
+

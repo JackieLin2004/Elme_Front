@@ -1,0 +1,38 @@
+html, body {
+    /*内外边距都设置为0*/
+    margin: 0;
+    padding: 0;
+    /*每个字4%的宽度，每行最多是25个字，这样子字体也可以自适应*/
+    font-size: 4vw;
+}
+
+/********************** header *************************/
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper header {
+    width: 100%;
+    height: 12vw;
+    background-color: #0097FF;
+
+    display: flex;
+    /*垂直方向居中*/
+    align-items: center;
+}
+
+.wrapper header .location {
+    margin: 0 1vw 0 3vw;
+    font-size: 4.5vw;
+    font-weight: 600;
+    color: white;
+}
+
+.wrapper header .location i {
+    /*垂直方向对齐，即偏移量，负数往上正数往下*/
+    vertical-align: -0.15em;
+}
+
+
