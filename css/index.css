@@ -6,12 +6,12 @@ html, body {
     font-size: 4vw;
 }
 
-/********************** header *************************/
-
 .wrapper {
     width: 100%;
     height: 100%;
 }
+
+/********************** header *************************/
 
 .wrapper header {
     width: 100%;
@@ -35,4 +35,156 @@ html, body {
     vertical-align: -0.15em;
 }
 
+/********************** search *************************/
 
+.wrapper .search {
+    width: 100%;
+    height: 13vw;
+}
+
+.wrapper .search .search-fixed-top {
+    width: 100%;
+    height: 13vw;
+    background-color: #0097FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .search .search-fixed-top .search-box {
+    width: 90%;
+    height: 9vw;
+    background-color: #fff;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3.5vw;
+    color: #AEAEAE;
+    font-family: "宋体", serif;
+    /*让文本选中状态无效*/
+    user-select: none;
+}
+
+.wrapper .search .search-fixed-top .search-box i {
+    margin-right: 1vw;
+}
+
+/********************** 点餐分类部分 *************************/
+
+.wrapper .food-category {
+    width: 100%;
+    height: 48vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.wrapper .food-category .category-item {
+    width: 18vw;
+    height: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+.wrapper .food-category .category-item img {
+    width: 15vw;
+    height: 15vw;
+}
+
+.wrapper .food-category .category-item span {
+    font-size: 3.5vw;
+    color: #666;
+}
+
+/********************** 横幅广告部分 *************************/
+
+.wrapper .banner {
+    width: 95%;
+    margin: 0 auto;
+    height: 29vw;
+
+    background-image: url("../assets/img/index_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .banner h3 {
+    font-size: 4.2vw;
+    /*margin-bottom: 1.2vw;*/
+    margin: 0.5vw;
+}
+
+.wrapper .banner p {
+    font-size: 3.4vw;
+    color: #666;
+    margin: 0.5vw;
+    /*margin-bottom: 2.4vw;*/
+}
+
+.wrapper .banner a {
+    font-size: 3vw;
+    color: #c79060;
+    font-weight: 700;
+    margin-top: 3vw;
+}
+
+/********************** 超级会员部分 *************************/
+
+.wrapper .super-member {
+    width: 95%;
+    height: 11.5vw;
+    margin: 0 auto;
+    background-color: #FEEDC1;
+    margin-top: 1.3vw;
+    border-radius: 2px;
+    color: #644F1B;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .super-member .super-member-left {
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+    user-select: none;
+}
+
+.wrapper .super-member .super-member-left img {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 2vw;
+}
+
+.wrapper .super-member .super-member-left h3 {
+    font-size: 4vw;
+    margin-right: 2vw;
+}
+
+.wrapper .super-member .super-member-left p {
+    font-size: 3vw;
+}
+
+.wrapper .super-member .super-member-right {
+    font-size: 3vw;
+    margin-right: 4vw;
+    cursor: pointer;
+}
