@@ -188,3 +188,256 @@ html, body {
     margin-right: 4vw;
     cursor: pointer;
 }
+
+/********************** 推荐商家部分 *************************/
+
+.wrapper .recommend {
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .recommend .recommend-line {
+    width: 6vw;
+    height: 0.2vw;
+    background-color: #888;
+}
+
+.wrapper .recommend p {
+    font-size: 4vw;
+    margin: 0 4vw;
+}
+
+/********************** 推荐方式部分 *************************/
+
+.wrapper .recommend-type {
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 5vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .recommend-type .recommend-type-text {
+    font-size: 3.5vw;
+    color: #555;
+}
+
+.wrapper .recommend-type .recommend-type-text i {
+    vertical-align: -0.16em;
+}
+
+/********************** 推荐商家列表部分 *************************/
+
+.wrapper .business {
+    width: 100%;
+    /*由于商家个数是后端返回，所以高度不能固定，由内容自动撑开*/
+    margin-bottom: 14vw;
+}
+
+.wrapper .business .business-shop {
+    width: 100%;
+    /*边框盒子*/
+    box-sizing: border-box;
+    padding: 1.5vw;
+    user-select: none;
+    /*下边框*/
+    border-bottom: solid 1px #DDD;
+
+    display: flex;
+}
+
+.wrapper .business .business-shop img {
+    width: 18vw;
+    height: 18vw;
+}
+
+.wrapper .business .business-shop .business-info {
+    /*充满剩余的右边*/
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-h h3 {
+    font-size: 4vw;
+    color: #333;
+    margin: 0;
+}
+
+.wrapper .business .business-shop .business-info .business-info-h .business-info-like {
+    width: 1.6vw;
+    height: 3.4vw;
+    background-color: #666;
+    color: #fff;
+    font-size: 4vw;
+    margin-right: 4vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .business .business-shop .business-info .business-info-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+    font-size: 3.1vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-star .business-info-star-left {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .business .business-shop .business-info .business-info-star .business-info-star-left i {
+    color: #FEC80E;
+    margin-right: 0.5vw;
+    vertical-align: -0.15em;
+}
+
+.wrapper .business .business-shop .business-info .business-info-star .business-info-star-left p {
+    color: #666;
+    margin: 0;
+    margin-left: 1vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-star .business-info-star-right {
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 2.5vw;
+    border-radius: 2px;
+    padding: 0 0.6vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+
+    color: #666;
+    font-size: 3.1vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-delivery p {
+    margin: 0;
+}
+
+.wrapper .business .business-shop .business-info .business-info-explain {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-explain div {
+    border: solid 1px #DDD;
+    font-size: 2.8vw;
+    color: #666;
+    border-radius: 3px;
+    padding: 0 0.1vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.8vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion .business-info-promotion-left {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion .business-info-promotion-left .business-info-promotion-icon {
+    width: 4vw;
+    height: 4vw;
+    background-color: #70BC46;
+    border-radius: 3px;
+    font-size: 3vw;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion .business-info-promotion-left p {
+    color: #666;
+    font-size: 3vw;
+    /*margin-left: 2vw;*/
+    margin: 1vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion .business-info-promotion-right {
+    display: flex;
+    align-items: center;
+    font-size: 2.5vw;
+    color: #999;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion .business-info-promotion-right p {
+    /*margin-right: 2vw;*/
+    margin: 1vw;
+}
+
+.wrapper .business .business-shop .business-info .business-info-promotion .business-info-promotion-left .business-info-promotion-icon-te {
+    width: 4vw;
+    height: 4vw;
+    background-color: #F1884F;
+    border-radius: 3px;
+    font-size: 3vw;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/********************** 底部菜单部分 *************************/
+
+.wrapper .footer {
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+
+.wrapper .footer .footer-menu span {
+    font-size: 2.8vw;
+}
+
+.wrapper .footer .footer-menu i {
+    font-size: 5vw;
+}
