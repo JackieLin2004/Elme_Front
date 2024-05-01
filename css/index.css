@@ -421,6 +421,8 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    background-color: white;
 }
 
 .wrapper .footer .footer-menu {
@@ -429,15 +431,17 @@ html, body {
     justify-content: center;
     align-items: center;
 
-    color: #999;
+    color: #888;
     user-select: none;
     cursor: pointer;
+
+    font-weight: 540;
 }
 
 .wrapper .footer .footer-menu span {
-    font-size: 2.8vw;
+    font-size: 4vw;
 }
 
 .wrapper .footer .footer-menu i {
-    font-size: 5vw;
+    font-size: 7.5vw;
 }
