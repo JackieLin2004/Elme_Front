@@ -1,0 +1,136 @@
+html, body {
+    /*内外边距都设置为0*/
+    margin: 0;
+    padding: 0;
+}
+
+/********************** 总容器 *************************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/********************** header *************************/
+
+.wrapper header {
+    width: 100%;
+    height: 12vw;
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 4.8vw;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    /*放到最顶层*/
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/********************** 订单列表部分 *************************/
+
+.wrapper h3 {
+    margin-top: 12vw;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    padding: 4vw;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #777;
+}
+
+.wrapper .order {
+    width: 100%;
+}
+
+.wrapper .order .order-item {
+    width: 100%;
+}
+
+.wrapper .order .order-item .order-item-info {
+    box-sizing: border-box;
+    padding: 2vw 4vw;
+    font-size: 4.5vw;
+    color: #666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .order .order-item .order-item-info .octicon\:triangle-down-24 {
+    margin-left: -2vw;
+    vertical-align: -0.15em;
+}
+
+.wrapper .order .order-item .order-item-info .order-item-info-right {
+    display: flex;
+}
+
+.wrapper .order .order-item .order-item-info .order-item-info-right .order-item-info-right-icon {
+    background-color: #f90;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 2vw;
+    font-size: 3.8vw;
+    user-select: none;
+    cursor: pointer;
+}
+
+.wrapper .order .order-item .order-detail {
+    width: 100%;
+}
+
+.wrapper .order .order-item .order-detail .order-detail-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5vw 4vw;
+    color: #666;
+    font-size: 3.5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/********************** 底部菜单部分 *************************/
+
+.wrapper .footer {
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: white;
+}
+
+.wrapper .footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #888;
+    user-select: none;
+    cursor: pointer;
+
+    font-weight: 540;
+}
+
+.wrapper .footer .footer-menu span {
+    font-size: 4vw;
+}
+
+.wrapper .footer .footer-menu i {
+    font-size: 7.5vw;
+}
