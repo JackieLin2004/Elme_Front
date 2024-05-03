@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>饿了么 在线支付</title>
+    <link rel="stylesheet" href="assets/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <script src="js/payment.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!--header部分-->
+    <header>
+        <span>在线支付</span>
+    </header>
+
+    <!--订单信息部分-->
+    <h3>订单信息：</h3>
+    <div class="order-info">
+        <span>
+            万家饺子（软件园E18店）
+            <i class="i octicon:triangle-down-24" id="ShowButton"></i>
+        </span>
+        <span>&#165; 49</span>
+    </div>
+
+    <!--订单信息明细部分-->
+    <div class="order-detail" id="DetailsBox">
+        <div class="order-detail-item">
+            <span>纯肉鲜肉（水饺） x 2</span>
+            <span>&#165;15</span>
+        </div>
+        <div class="order-detail-item">
+            <span>玉米鲜肉（水饺） x 1</span>
+            <span>&#165;16</span>
+        </div>
+        <div class="order-detail-item">
+            <span>配送费</span>
+            <span>&#165;3</span>
+        </div>
+    </div>
+
+    <!--支付方式部分-->
+    <div class="payment-type">
+        <div class="payment-type-item">
+            <img src="assets/img/alipay.png" alt="">
+            <i class="i material-symbols:check-circle"></i>
+        </div>
+        <div class="payment-type-item">
+            <img src="assets/img/wechat.png" alt="">
+        </div>
+    </div>
+    <div class="payment-button">
+        <button>确认支付</button>
+    </div>
+
+    <!--底部菜单部分-->
+    <div class="footer">
+        <div class="footer-menu" onclick="location.href='index.html'">
+            <i class="i ic:round-home"></i>
+            <span>首页</span>
+        </div>
+        <div class="footer-menu">
+            <i class="i tdesign:compass"></i>
+            <span>发现</span>
+        </div>
+        <div class="footer-menu" onclick="location.href='orderList.html'">
+            <i class="i ph:file-text-light"></i>
+            <span>订单</span>
+        </div>
+        <div class="footer-menu">
+            <i class="i ic:round-person"></i>
+            <span>我的</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

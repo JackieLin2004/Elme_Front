@@ -36,39 +36,43 @@ content: "\e003";
 content: "\e004";
 }
 
-.i.material-symbols\:chevron-right:before {
+.i.material-symbols\:check-circle:before {
 content: "\e005";
 }
 
-.i.material-symbols\:do-not-disturb-on:before {
+.i.material-symbols\:chevron-right:before {
 content: "\e006";
 }
 
-.i.material-symbols\:filter-alt-off-outline-rounded:before {
+.i.material-symbols\:do-not-disturb-on:before {
 content: "\e007";
 }
 
-.i.material-symbols\:shopping-cart:before {
+.i.material-symbols\:filter-alt-off-outline-rounded:before {
 content: "\e008";
 }
 
-.i.material-symbols\:star:before {
+.i.material-symbols\:shopping-cart:before {
 content: "\e009";
 }
 
-.i.octicon\:triangle-down-24:before {
+.i.material-symbols\:star:before {
 content: "\e00a";
 }
 
-.i.ph\:file-text-light:before {
+.i.octicon\:triangle-down-24:before {
 content: "\e00b";
 }
 
-.i.ph\:magnifying-glass-bold:before {
+.i.ph\:file-text-light:before {
 content: "\e00c";
 }
 
-.i.tdesign\:compass:before {
+.i.ph\:magnifying-glass-bold:before {
 content: "\e00d";
+}
+
+.i.tdesign\:compass:before {
+content: "\e00e";
 }
 
