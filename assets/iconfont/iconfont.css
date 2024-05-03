@@ -32,27 +32,39 @@ content: "\e002";
 content: "\e003";
 }
 
-.i.material-symbols\:filter-alt-off-outline-rounded:before {
+.i.material-symbols\:add-circle-rounded:before {
 content: "\e004";
 }
 
-.i.material-symbols\:star:before {
+.i.material-symbols\:do-not-disturb-on:before {
 content: "\e005";
 }
 
-.i.octicon\:triangle-down-24:before {
+.i.material-symbols\:filter-alt-off-outline-rounded:before {
 content: "\e006";
 }
 
-.i.ph\:file-text-light:before {
+.i.material-symbols\:shopping-cart:before {
 content: "\e007";
 }
 
-.i.ph\:magnifying-glass-bold:before {
+.i.material-symbols\:star:before {
 content: "\e008";
 }
 
-.i.tdesign\:compass:before {
+.i.octicon\:triangle-down-24:before {
 content: "\e009";
+}
+
+.i.ph\:file-text-light:before {
+content: "\e00a";
+}
+
+.i.ph\:magnifying-glass-bold:before {
+content: "\e00b";
+}
+
+.i.tdesign\:compass:before {
+content: "\e00c";
 }
 
