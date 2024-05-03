@@ -5,9 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>饿了么 用户登录</title>
+    <title>饿了么 用户注册</title>
     <link rel="stylesheet" href="assets/iconfont/iconfont.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
 
     <!--header部分-->
     <header>
-        <span>用户登录</span>
+        <span>用户注册</span>
     </header>
 
     <!--表单部分-->
@@ -40,15 +40,37 @@
                 </label>
             </div>
         </div>
+        <div class="form-box-item">
+            <div class="title">
+                确认密码：
+            </div>
+            <div class="content">
+                <label>
+                    <input type="password" placeholder="确认密码">
+                </label>
+            </div>
+        </div>
+        <div class="form-box-item">
+            <div class="title">
+                性别：
+            </div>
+            <div class="content" id="sex">
+                <label>
+                    <!--checked设置默认值-->
+                    <input type="radio" name="sex" checked="">男
+                    <input type="radio" name="sex">女
+                </label>
+            </div>
+        </div>
     </div>
 
     <!--登录按钮部分-->
     <div class="button-login">
-        <button>登录</button>
+        <button onclick="location.href='login.html'">注册</button>
     </div>
-    <div class="button-register">
-        <button onclick="location.href='register.html'">去注册</button>
-    </div>
+    <!--    <div class="button-register">-->
+    <!--        <button>去注册</button>-->
+    <!--    </div>-->
 
     <!--底部菜单部分-->
     <div class="footer">
@@ -73,4 +95,4 @@
 </div>
 
 </body>
-</html>
+</html>>
