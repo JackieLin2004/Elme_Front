@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>饿了么 确认订单</title>
+    <link rel="stylesheet" href="assets/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!--header部分-->
+    <header>
+        <span>确认订单</span>
+    </header>
+
+    <!--订单信息部分-->
+    <div class="order-info">
+        <h5>订单配送至：</h5>
+        <div class="order-info-address">
+            <span>昆明市呈贡区云南大学楸苑三幢A521</span>
+            <i class="i material-symbols:chevron-right"></i>
+        </div>
+        <span>林晓毅先生 13726943721</span>
+    </div>
+
+    <h3>万家饺子（软件园E18店）</h3>
+
+    <!--订单明细部分-->
+    <div class="order-detail">
+        <div class="order-detail-item">
+            <div class="order-details-left">
+                <img src="assets/img/sp01.png" alt="">
+                <span>纯肉鲜肉（水饺） x 2</span>
+            </div>
+            <span>&#165;15</span>
+        </div>
+        <div class="order-detail-item">
+            <div class="order-details-left">
+                <img src="assets/img/sp02.png" alt="">
+                <span>玉米鲜肉（水饺） x 1</span>
+            </div>
+            <span>&#165;16</span>
+        </div>
+    </div>
+
+    <!--配送费部分-->
+    <div class="order-delivery-fee">
+        <span>配送费</span>
+        <span>&#165;3</span>
+    </div>
+
+    <!--订单合计部分-->
+    <div class="total">
+        <div class="total-left">
+            &#165; 49
+        </div>
+        <div class="total-right" onclick="location.href='payment.html'">
+            去支付
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
