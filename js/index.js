@@ -3,7 +3,7 @@ window.onload = function () {
         // 获取滚动条位置
         let s1 = document.documentElement.scrollTop;
         let s2 = document.body.scrollTop;
-        let scroll = s1 == 0 ? s2 : s1;
+        let scroll = s1 === 0 ? s2 : s1;
         // 获取视口宽度
         let width = document.documentElement.clientWidth;
         // 获取顶部固定块

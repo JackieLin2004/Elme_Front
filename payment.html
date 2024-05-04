@@ -6,11 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>饿了么 在线支付</title>
+    <link rel="icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="assets/iconfont/iconfont.css">
     <link rel="stylesheet" href="css/payment.css">
     <script src="js/payment.js"></script>
 </head>
-
 <body>
 
 <div class="wrapper">
@@ -57,7 +57,7 @@
         </div>
     </div>
     <div class="payment-button">
-        <button>确认支付</button>
+        <button onclick="RedirectToOrderList()">确认支付</button>
     </div>
 
     <!--底部菜单部分-->
@@ -74,7 +74,7 @@
             <i class="i ph:file-text-light"></i>
             <span>订单</span>
         </div>
-        <div class="footer-menu">
+        <div class="footer-menu" onclick="location.href='login.html'">
             <i class="i ic:round-person"></i>
             <span>我的</span>
         </div>

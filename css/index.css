@@ -150,9 +150,9 @@ html, body {
 .wrapper .super-member {
     width: 95%;
     height: 11.5vw;
-    margin: 0 auto;
+    margin: 1.3vw auto 0 auto;
     background-color: #FEEDC1;
-    margin-top: 1.3vw;
+    /*margin-top: 1.3vw;*/
     border-radius: 2px;
     color: #644F1B;
 
@@ -310,8 +310,8 @@ html, body {
 
 .wrapper .business .business-shop .business-info .business-info-star .business-info-star-left p {
     color: #666;
-    margin: 0;
-    margin-left: 1vw;
+    margin: 0 0 0 1vw;
+    /*margin-left: 1vw;*/
 }
 
 .wrapper .business .business-shop .business-info .business-info-star .business-info-star-right {

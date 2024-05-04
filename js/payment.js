@@ -16,3 +16,8 @@ window.onload = function () {
         }
     }
 }
+
+function RedirectToOrderList() {
+    location.href = 'orderList.html';
+    window.alert("支付成功！");
+}
