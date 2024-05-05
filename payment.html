@@ -17,7 +17,9 @@
 
     <!--header部分-->
     <header>
-        <span>在线支付</span>
+        <i class="i material-symbols:chevron-left" onclick="window.history.back()"></i>
+        <span>商家列表</span>
+        <div></div>
     </header>
 
     <!--订单信息部分-->
@@ -50,10 +52,16 @@
     <div class="payment-type">
         <div class="payment-type-item">
             <img src="assets/img/alipay.png" alt="">
-            <i class="i material-symbols:check-circle"></i>
+            <label>
+                <input type="radio" name="PaymentType" checked="">
+            </label>
+            <!--            <i class="i material-symbols:check-circle"></i>-->
         </div>
         <div class="payment-type-item">
             <img src="assets/img/wechat.png" alt="">
+            <label>
+                <input type="radio" name="PaymentType">
+            </label>
         </div>
     </div>
     <div class="payment-button">

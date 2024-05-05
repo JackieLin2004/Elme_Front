@@ -30,6 +30,25 @@ html, body {
     align-items: center;
 }
 
+.wrapper header i {
+    width: 30%;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    vertical-align: 1em;
+    font-size: 6vw;
+}
+
+.wrapper header span {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper header div {
+    width: 30%;
+}
+
 /********************** 商家列表部分 *************************/
 
 .wrapper .business {
