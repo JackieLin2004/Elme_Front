@@ -15,6 +15,33 @@ window.onload = function () {
             DetailBox.style.display = 'none';
         }
     }
+
+
+    // 处理支付方式的部分
+    let ALiPay = document.getElementById('ALiPay');
+    let ALiPayBox = document.getElementById('ALiPay-box');
+    let WeChatPay = document.getElementById('WeChatPay');
+    let WeChatPayBox = document.getElementById('WeChatPay-box');
+
+    WeChatPayBox.style.display = 'none';
+
+    ALiPay.onclick = function () {
+        if (ALiPayBox.style.display === 'none') {
+            ALiPayBox.style.display = 'block';
+            WeChatPayBox.style.display = 'none';
+        } else {
+            ALiPayBox.style.display = 'none';
+        }
+    }
+
+    WeChatPay.onclick = function () {
+        if (WeChatPayBox.style.display === 'none') {
+            WeChatPayBox.style.display = 'block';
+            ALiPayBox.style.display = 'none';
+        } else {
+            WeChatPayBox.style.display = 'none';
+        }
+    }
 }
 
 function RedirectToOrderList() {
